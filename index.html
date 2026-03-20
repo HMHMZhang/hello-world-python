@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D 坦克大战</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>2D 坦克大战</h1>
+
+    <div id="game-info">
+        <p>分数: <span id="score">0</span></p>
+        <p>生命: <span id="lives">3</span></p>
+    </div>
+
+    <div id="start-screen" class="game-screen">
+        <h2>2D 坦克大战</h2>
+        <button id="start-button">开始游戏</button>
+    </div>
+
+    <div id="end-screen" class="game-screen" style="display:none;">
+        <h2 id="end-message">游戏结束!</h2>
+        <p>最终分数: <span id="final-score">0</span></p>
+        <button id="restart-button">重新开始</button>
+    </div>
+
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
