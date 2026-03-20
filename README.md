@@ -1,4 +1,6 @@
-# Hello World Python项目 🐍
+# hello-world-python
+
+我的第一个Python项目 🐍
 
 这是一个简单的Python Hello World程序，展示基本的Python语法和功能。
 
